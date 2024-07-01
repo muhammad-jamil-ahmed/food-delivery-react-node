@@ -1,0 +1,236 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.bg-light {
+  z-index: 2;
+}
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.filter form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.filter .form-control {
+  flex-grow: 1;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.filter .btn {
+  background-color: maroon;
+  color: white;
+  border: none;
+  padding: 10px 20px; /* Equal padding */
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 1.5; /* Consistent line height */
+  height: 42px; /* Ensure consistent height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.filter .btn:hover {
+  background-color: #b22222;
+}
+
+
+
+.banner-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.content {
+  margin-top: 100vh;
+  background-color: white; /* Ensures a solid white background */
+  padding: 20px; /* Optional: Add padding for spacing */
+  box-sizing: border-box;
+  z-index: 998; /* Ensure it's below the banner in the z-index stack */
+  position: relative; /* Position relative to maintain stacking context */
+}
+
+.heading-container {
+  background-color: maroon;
+  padding: 30px 0;
+  text-align: center;
+  color: white;
+  z-index: 1; /* Ensure it's above any other content */
+}
+
+.filter, .d-flex {
+  background-color: white; /* Ensures elements are not transparent */
+}
+
+.list-group-item {
+  background-color: white;
+}
+
+.carousel-container, .menu-background, .menu-item-spacing {
+  background-color: white; /* White background for these elements as well */
+}
+
+.banner-text h1,
+.banner-text h2,
+.banner-text p {
+  margin: 0;
+  padding: 5px;
+}
+
+.banner-text .btn-primary {
+  margin-top: 15px;
+  background-color: #ff5722; /* Change this color to your preferred button color */
+  border: none;
+}
+
+.banner-text .btn-primary:hover {
+  background-color: #e64a19; /* Darker shade for hover */
+}
+
+.heading-container {
+  background-color: maroon; /* Maroon background */
+  padding: 30px 0; /* Padding around the heading */
+  text-align: center; /* Center the text inside the container */
+}
+
+.heading-container .heading-bar {
+  color: white; /* White text color for contrast */
+}
+.carousel-container {
+  background-color: #f8f7f5; /* Set grey background color */
+  padding: 20px; /* Optional: Add some padding around the content */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.menu-background {
+  background-color: #d7b3b3; /* Light maroon color */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  padding: 10px; /* Optional: Add padding around the menu items */
+}
+
+.menu-item-spacing {
+  margin: 0 10px; /* Add margin between items */
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.btn-maroon {
+  background-color: maroon;
+  color: white;
+  border: none; /* Optional: To remove any default borders */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.btn-maroon:hover {
+  background-color: #b22222; /* Light maroon color on hover */
+  color: white; /* Ensure text color remains white */
+}
+
+.btn-maroon, .nav-link-maroon {
+  background-color: maroon;
+  color: white;
+  border: none;
+  padding: 10px 20px; /* Equal padding for all sides */
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  text-decoration: none; /* Remove underline from link */
+}
+
+.btn-maroon:hover, .nav-link-maroon:hover {
+  background-color: #b22222; /* Darker maroon on hover */
+  color: white; /* Ensures text color is white on hover */
+}
+
+.nav-link-maroon {
+  background-color: transparent;
+  color: maroon;
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 5px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
