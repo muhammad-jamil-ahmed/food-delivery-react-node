@@ -1,0 +1,104 @@
+[{
+  "_id": {
+    "$oid": "66a88a9aae56df86f78d9945"
+  },
+  "restaurantName": "Taste of Italy",
+  "menuItems": [
+    {
+      "name": "Margherita Pizza",
+      "imageURL": "https://res.cloudinary.com/dz5lc1npz/image/upload/v1722321962/pizza_p2gwn9.jpg",
+      "quantity": 10,
+      "price": 9.99
+    },
+    {
+      "name": "Pasta Carbonara",
+      "imageURL": "https://res.cloudinary.com/dz5lc1npz/image/upload/v1722319901/sand_fmfyf8.jpg",
+      "quantity": 20,
+      "price": 12.99
+    }
+  ],
+  "cuisineType": "Italian",
+  "address": "123 Pasta Lane, Food Town",
+  "status": "Open",
+  "phone": "123-456-7890",
+  "description": "Authentic Italian cuisine with a modern twist.",
+  "ownerId": "60e6e0f5c0d4f865d83f2c8a"
+},
+{
+  "_id": {
+    "$oid": "66a88a9aae56df86f78d9946"
+  },
+  "restaurantName": "Sushi World",
+  "menuItems": [
+    {
+      "name": "California Roll",
+      "imageURL": "https://res.cloudinary.com/dz5lc1npz/image/upload/v1722322814/California-Roll-7066-I-1_ycen0u.jpg",
+      "quantity": 15,
+      "price": 7.99
+    },
+    {
+      "name": "Spicy Tuna Roll",
+      "imageURL": "https://res.cloudinary.com/dz5lc1npz/image/upload/v1722322858/tuna_oh7aco.jpg",
+      "quantity": 15,
+      "price": 8.99
+    }
+  ],
+  "cuisineType": "Japanese",
+  "address": "456 Sushi Street, Food Town",
+  "status": "Open",
+  "phone": "987-654-3210",
+  "description": "Fresh and delicious sushi made daily.",
+  "ownerId": "60e6e0f5c0d4f865d83f2c8b"
+},
+{
+  "_id": {
+    "$oid": "66a88a9aae56df86f78d9947"
+  },
+  "restaurantName": "Burger Palace",
+  "menuItems": [
+    {
+      "name": "Classic Cheeseburger",
+      "imageURL": "https://res.cloudinary.com/dz5lc1npz/image/upload/v1722323131/beef_m7jbiw.jpg",
+      "quantity": 30,
+      "price": 8.99
+    },
+    {
+      "name": "Bacon Burger",
+      "imageURL": "https://res.cloudinary.com/dz5lc1npz/image/upload/v1722323223/burgerr_eotjjv.jpg",
+      "quantity": 25,
+      "price": 10.99
+    }
+  ],
+  "cuisineType": "American",
+  "address": "789 Burger Lane, Food Town",
+  "status": "Open",
+  "phone": "234-567-8901",
+  "description": "Delicious and juicy burgers made to order.",
+  "ownerId": "60e6e0f5c0d4f865d83f2c8c"
+},
+{
+  "_id": {
+    "$oid": "66a88a9aae56df86f78d9948"
+  },
+  "restaurantName": "Taco Fiesta",
+  "menuItems": [
+    {
+      "name": "Chicken Tacos",
+      "imageURL": "https://res.cloudinary.com/dz5lc1npz/image/upload/v1722323393/tacos_wllhqn.jpg",
+      "quantity": 40,
+      "price": 6.99
+    },
+    {
+      "name": "Beef Tacos",
+      "imageURL": "https://res.cloudinary.com/dz5lc1npz/image/upload/v1722323392/Beef-Tacos_xx9pfw.jpg",
+      "quantity": 35,
+      "price": 7.99
+    }
+  ],
+  "cuisineType": "Mexican",
+  "address": "321 Taco Avenue, Food Town",
+  "status": "Open",
+  "phone": "345-678-9012",
+  "description": "Authentic Mexican tacos with fresh ingredients.",
+  "ownerId": "60e6e0f5c0d4f865d83f2c8d"
+}]
